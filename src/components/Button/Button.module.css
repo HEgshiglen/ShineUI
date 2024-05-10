@@ -6,6 +6,7 @@
     padding-right: var(--btn-px-small);
     padding-top: var(--btn-py-small);
     padding-bottom: var(--btn-py-small);
+    border-radius: 5px;
 }
 .btn-medium{
     font-size: var(--btn-text-size-medium);
@@ -13,6 +14,7 @@
     padding-right: var(--btn-px-medium);
     padding-top: var(--btn-py-medium);
     padding-bottom: var(--btn-py-medium);
+    border-radius: 8px;
 }
 .btn-large{
     font-size: var(--btn-text-size-large);
@@ -20,6 +22,7 @@
     padding-right: var(--btn-px-large);
     padding-top: var(--btn-py-large);
     padding-bottom: var(--btn-py-large);
+    border-radius: 10px;
 }
 
 

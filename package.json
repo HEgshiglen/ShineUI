@@ -1,5 +1,5 @@
 {
-  "name": "@hegshiglen/shineui",
+  "name": "@aminzaya/shineui",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Egshiglen"
   },
@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "author": "HEgshiglen",
+  "author": "aminzaya",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.23.9",
@@ -67,6 +67,7 @@
   },
   "types": "dist/index.d.ts",
   "dependencies": {
+    "nvm": "^0.0.4",
     "react-css-modules": "^4.7.11",
     "tslib": "^2.6.2",
     "yarn": "^1.22.22"

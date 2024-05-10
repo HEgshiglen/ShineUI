@@ -11,7 +11,7 @@ const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
 
 export const HelloWorld = Template.bind({});
 HelloWorld.args = {
-    label: "Hello world!",
+    label: "Button",
     size: "large",
     color: "primary"
 };

@@ -11,7 +11,7 @@ const Template2: StoryFn<typeof StatusBadge> = (args) => <StatusBadge {...args} 
 
 export const StatusBadgeXD = Template2.bind({});
 StatusBadgeXD.args = {
-    label: "Colors go brrrrrr",
+    label: "Colors",
     constrast: "dark",
     color: "orchid",
 };
