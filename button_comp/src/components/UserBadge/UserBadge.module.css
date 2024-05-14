@@ -1,0 +1,57 @@
+@import '../../../src/global-styling/design-tokens.css';
+
+div{
+    display: inline-block;
+}
+
+.userbadge-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 999px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.userbadge-icon{
+    padding: var(--userbadge-icon-padding);
+    background-image: url('asmonbald.jpg');
+    border-radius: 999px;
+    padding: 15px 15px;
+}
+
+.statusbadge{
+    padding-left: var(--userbadge-px-medium);
+    padding-right: var(--userbadge-px-medium);
+    padding-top: var(--userbadge-py-medium);
+    padding-bottom: var(--userbadge-py-medium);
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    border-radius: 20px;
+}
+
+.statusbadge-light-default{
+    background-color: var(--userbadge-light-surface-default);
+    border: 1px solid var(--userbadge-light-border-default);
+    color: var(--userbadge-light-text);
+}
+
+.statusbadge-light-hover{
+    background-color: var(--userbadge-light-surface-hover);
+     border: 1px solid var(--userbadge-light-border-hover);
+     color: var(--userbadge-light-text);
+}
+
+.statusbadge-dark-default{
+    background-color: var(--userbadge-dark-surface-default);
+    border: 1px solid var(--userbadge-dark-border-default);
+    color: var(--userbadge-dark-text);
+}
+
+.statusbadge-dark-hover{
+    background-color: var(--userbadge-dark-surface-hover);
+     border: 1px solid var(--userbadge-dark-border-hover);
+     color: var(--userbadge-dark-text);
+}

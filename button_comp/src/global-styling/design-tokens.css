@@ -302,4 +302,21 @@
     --statusbadge-icon-destructive: var(--red-500);
     --statusbadge-icon-success: var(--green-500);
     --statusbadge-icon-orchid: var(--purple-700);
+
+    /* User badge, a malding one in fact */
+    --userbadge-px-medium: var(--size-4);
+    --userbadge-py-medium: var(--size-3);
+    --userbadge-icon-padding: var(--size-2);
+
+    --userbadge-light-surface-default: var(--gray-100);
+    --userbadge-light-surface-hover: var(--gray-400);
+    --userbadge-light-border-default: var(--gray-100);
+    --userbadge-light-border-hover: var(--gray-400);
+    --userbadge-light-text: var(--gray-700);
+
+    --userbadge-dark-surface-default: var(--gray-700);
+    --userbadge-dark-surface-hover: var(--gray-300);
+    --userbadge-dark-border-default: var(--gray-500);
+    --userbadge-dark-border-hover: var(--gray-500);
+    --userbadge-dark-text: var(--gray-400);
 }
