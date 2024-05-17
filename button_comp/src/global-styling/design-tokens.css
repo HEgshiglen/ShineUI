@@ -8,6 +8,7 @@
     /* Primitive tokens (Please don't try to divide by 2)*/
 
     /* Spacing */
+    --size-0: 0px;
     --size-1: 4px;
     --size-2: 8px;
     --size-3: 12px;
@@ -319,4 +320,25 @@
     --userbadge-dark-border-default: var(--gray-500);
     --userbadge-dark-border-hover: var(--gray-500);
     --userbadge-dark-text: var(--gray-400);
+
+    /* Shortcut indicator or something... just shortcut is fine */
+    --shortcut-light-main-text: var(--gray-600);
+    --shortcut-light-main-border: var(--gray-100);
+    --shortcut-light-main-surface: var(--gray-0);
+    --shortcut-light-keystroke-text: var(--gray-800);
+    --shortcut-light-keystroke-border: var(--gray-200);
+    --shortcut-light-keystroke-surface: var(--gray-0);
+
+    --shortcut-dark-main-text: var(--gray-300);
+    --shortcut-dark-main-border: var(--gray-500);
+    --shortcut-dark-main-surface: var(--gray-800);
+    --shortcut-dark-keystroke-text: var(--gray-300);
+    --shortcut-dark-keystroke-border:var(--gray-700);
+    --shortcut-dark-keystroke-surface: var(--gray-900);
+
+    --shortcut-main-text-size: var(--size-5);
+    --shortcut-main-px: var(--size-3);
+    --shortcut-main-py: var(--size-2);
+    --shortcut-keystroke-px: var(--size-2);
+    --shortcut-keystroke-py: var(--size-0);
 }

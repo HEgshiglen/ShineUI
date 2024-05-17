@@ -1,0 +1,44 @@
+@import '../../../src/global-styling/design-tokens.css';
+
+.shortcut{
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: var(--shortcut-main-px);
+    padding-right: var(--shortcut-main-px);
+    padding-top: var(--shortcut-main-py);
+    padding-bottom: var(--shortcut-main-py);
+}
+
+.strokebox{
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-left: var(--shortcut-keystroke-px);
+    padding-right: var(--shortcut-keystroke-px);
+    padding-top: var(--shortcut-keystroke-py);
+    padding-bottom: var(--shortcut-keystroke-py);
+}
+
+.shortcut-light{
+    background-color: var(--shortcut-light-main-surface);
+    color: var(--shortcut-light-main-text);
+    border: 2px solid var(--shortcut-light-main-border);
+}
+
+.shortcut-dark{
+    background-color: var(--shortcut-dark-main-surface);
+    color: var(--shortcut-dark-main-text);
+    border: 2px solid var(--shortcut-dark-main-border);
+}
+
+.keystroke-light{
+    background-color: var(--shortcut-light-keystroke-surface);
+    color: var(--shortcut-light-keystroke-text);
+    border: 2px solid var(--shortcut-light-keystroke-border);
+}
+
+.keystroke-dark{
+    background-color: var(--shortcut-dark-keystroke-surface);
+    color: var(--shortcut-dark-keystroke-text);
+    border: 2px solid var(--shortcut-dark-keystroke-border);
+}

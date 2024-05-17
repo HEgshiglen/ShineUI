@@ -8,6 +8,7 @@ const config: StorybookConfig = {
     "../button_comp/src/components/Button/Button.stories.tsx",
     "../button_comp/src/components/StatusBadge/StatusBadge.stories.tsx",
     "../button_comp/src/components/UserBadge/UserBadge.stories.tsx",
+    "../button_comp/src/components/Shortcut/Shortcut.stories.tsx",
   ],
   addons: [
     "@storybook/addon-links",
