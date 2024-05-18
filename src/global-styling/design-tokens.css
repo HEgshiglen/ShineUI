@@ -438,4 +438,24 @@
   --tabsitems-dark-border-selected: var(--gray-600);
   --tabsitems-dark-border-focus: var(--blue-600);
 
+    /* Tooltip */
+--tooltip-light-main-text: var(--gray-600);
+--tooltip-light-main-border: var(--gray-100);
+--tooltip-light-main-surface: var(--gray-0);
+--tooltip-light-keystroke-text: var(--gray-800);
+--tooltip-light-keystroke-border: var(--gray-200);
+--tooltip-light-keystroke-surface: var(--gray-0);
+
+--tooltip-dark-main-text: var(--gray-300);
+--tooltip-dark-main-border: var(--gray-500);
+--tooltip-dark-main-surface: var(--gray-800);
+--tooltip-dark-keystroke-text: var(--gray-300);
+--tooltip-dark-keystroke-border:var(--gray-700);
+--tooltip-dark-keystroke-surface: var(--gray-900);
+
+--tooltip-main-text-size: var(--size-5);
+--tooltip-main-px: var(--size-3);
+--tooltip-main-py: var(--size-2);
+--tooltip-keystroke-px: var(--size-2);
+--tooltip-keystroke-py: var(--size-0);
 }
