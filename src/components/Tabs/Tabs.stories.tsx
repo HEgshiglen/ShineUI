@@ -11,7 +11,7 @@ const Template2: StoryFn<TabsProps> = (args) => <Tabs {...args} />;
 
 export const Tab = Template2.bind({});
 Tab.args = {
-    label: "hola",
+    label: "tabs",
     constrast: "dark",
     state: "default",
 };

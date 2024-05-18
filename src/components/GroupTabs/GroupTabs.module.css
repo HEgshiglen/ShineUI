@@ -1,0 +1,83 @@
+@import '../../../src/global-styling/design-tokens.css';
+
+div{
+    display: inline-block;
+}
+.grouptabs-light,
+.grouptabs-light-default,
+.grouptabs-light-hover,
+.grouptabs-light-selected,
+.grouptabs-light-focus,
+.grouptabs-dark,
+.grouptabs-dark-default,
+.grouptabs-dark-hover,
+.grouptabs-dark-selected
+.grouptabs-dark-focus{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grouptabs-light{
+    background-color: var(--grouptabs-light-surface);
+    border: 1.5px solid var(--grouptabs-light-border);
+    color: var(--grouptabs-light-text);
+}
+.grouptabs-dark{
+    background-color: var(--grouptabs-dark-surface);
+    border: 1.5px solid var(--grouptabs-dark-border);
+    color: var(--grouptabs-dark-text);
+}
+
+.grouptabs-light-default{
+    background-color: var(--grouptabs-light-surface-default);
+    border: 3px solid var(--grouptabs-light-border-default);
+    color: var(--grouptabs-light-text-default);  
+}
+.grouptabs-light-hover{
+    background-color: var(--grouptabs-light-surface-hover);
+    border: 3px solid var(--grouptabs-light-border-hover);
+    color: var( --grouptabs-light-text-hover);
+}
+.grouptabs-light-selected{
+    background-color: var(--grouptabs-light-surface-selected);
+    border: 3px solid var(--grouptabs-light-border-selected);
+    color: var(--grouptabs-light-text-selected); 
+}
+.grouptabs-light-focus{
+    background-color: var(--grouptabs-light-surface-focus);
+    border: 3px solid var(--grouptabs-light-border-focus);
+    color: var(--grouptabs-light-text-focus);
+}
+
+
+.grouptabs-dark-default{
+    background-color: var(--grouptabs-dark-surface-default);
+    border: 3px solid var(--grouptabs-dark-border-default);
+    color: var(--grouptabs-dark-text-default);  
+}
+.grouptabs-dark-hover{
+    background-color: var(--grouptabs-dark-surface-hover);
+    border: 3px solid var(--grouptabs-dark-border-hover);
+    color: var(--grouptabs-dark-text-hover);
+}
+.grouptabs-dark-selected{
+    background-color: var(--grouptabs-dark-surface-selected);
+    border: 3px solid var(--grouptabs-dark-border-selected);
+    color: var(--grouptabs-dark-text-selected);
+}
+
+.grouptabs-dark-focus {
+    background-color: var(--grouptabs-dark-surface-focus);
+    border: 3px solid var(--grouptabs-dark-border-focus);
+    color: var(--grouptabs-dark-text-focus);
+}
+
+ .grouptabs-dark-curved {
+    background-color: var(--grouptabs-dark-surface-focus);
+    border: 80px solid var(--grouptabs-dark-border-focus);
+    color: var(--grouptabs-dark-text-focus);
+    border-radius: var(--grouptabs-dark-radius-focus);
+} 

@@ -3,12 +3,23 @@
 div{
     display: inline-block;
 }
-.tabs-style{
+.tabs-light,
+.tabs-light-default,
+.tabs-light-hover,
+.tabs-light-selected,
+.tabs-light-focus,
+.tabs-dark,
+.tabs-dark-default,
+.tabs-dark-hover,
+.tabs-dark-selected
+.tabs-dark-focus{
     display: flex;
-    height: 16px;
-    width: 20px;
-    
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
 }
+
 .tabs-light{
     background-color: var(--tabs-light-surface);
     border: 1.5px solid var(--tabs-light-border);
@@ -64,9 +75,9 @@ div{
     color: var(--tabs-dark-text-focus);
 }
 
-/* .tabs-dark-focus-curved {
+ .tabs-dark-curved {
     background-color: var(--tabs-dark-surface-focus);
     border: 80px solid var(--tabs-dark-border-focus);
     color: var(--tabs-dark-text-focus);
     border-radius: var(--tabs-dark-radius-focus);
-} */
+} 

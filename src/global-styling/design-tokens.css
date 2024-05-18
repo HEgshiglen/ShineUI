@@ -331,8 +331,8 @@
 
   --tabs-dark-text-default: var(--gray-300);
   --tabs-dark-text-hover: var(--gray-100);
-  --tabs-dark-text-selected: var(--gray-100);
-  --tabs-dark-text-focus: var(--gray-300);
+  --tabs-dark-text-selected: var(--gray-0);
+  --tabs-dark-text-focus: var(--gray-100);
 
   --tabs-dark-surface-default: var(--gray-900);
   --tabs-dark-surface-hover: var(--gray-900);
@@ -344,6 +344,98 @@
   --tabs-dark-border-selected: var(--gray-600);
   --tabs-dark-border-focus: var(--blue-600);
 
-  /* radius */
-  /* --tabs-dark-radius-focus-: var( --radius-xl2); */
+
+  /* ---------------------------GroupTabs------------------------------- */
+  --grouptabs-radius-default: var(--radius-md);
+
+  --grouptabs-px-medium: var(--size-5);
+  --grouptabs-py-medium: var(--size-3);
+  --grouptabs-text-size-medium: var(--size-3);
+
+  --grouptabs-light-surface: var(--gray-100);
+  --grouptabs-light-text: var(--gray-900);
+  --grouptabs-light-border: var(--gray-500);
+
+  --grouptabs-dark-surface: var(--gray-900);
+  --grouptabs-dark-text: var(--gray-200);
+  --grouptabs-dark-border: var(--gray-500);
+
+  --grouptabs-light-text-default: var(--gray-500);
+  --grouptabs-light-text-hover: var(--gray-900);
+  --grouptabs-light-text-selected: var(--gray-500);
+  --grouptabs-light-text-focus: var(--gray-900);
+
+  --grouptabs-light-surface-default: var(--gray-0);
+  --grouptabs-light-surface-hover: var(--gray-0);
+  --grouptabs-light-surface-selected: var(--gray-100);
+  --grouptabs-light-surface-focus: var(--gray-100);
+
+  --grouptabs-light-border-default: var(--gray-0);
+  --grouptabs-light-border-hover: var(--gray-0);
+  --grouptabs-light-border-selected: var(--gray-500);
+  --grouptabs-light-border-focus: var(--blue-600);
+
+  --grouptabs-dark-text-default: var(--gray-300);
+  --grouptabs-dark-text-hover: var(--gray-100);
+  --grouptabs-dark-text-selected: var(--gray-0);
+  --grouptabs-dark-text-focus: var(--gray-100);
+
+  --grouptabs-dark-surface-default: var(--gray-900);
+  --grouptabs-dark-surface-hover: var(--gray-900);
+  --grouptabs-dark-surface-selected: var(--gray-900);
+  --grouptabs-dark-surface-focus: var(--gray-900);
+
+  --grouptabs-dark-border-default: var(--gray-900);
+  --grouptabs-dark-border-hover: var(--gray-900);
+  --grouptabs-dark-border-selected: var(--gray-600);
+  --grouptabs-dark-border-focus: var(--blue-600);
+
+  /* ---------------------------TabsItems------------------------------- */
+  --tabsitems-radius-default: var(--radius-base);
+
+  --tabsitems-light-surface: var(--gray-0);
+  --tabsitems-light-text: var(--gray-600);
+  --tabsitems-light-border: var(--gray-0);
+
+  --tabsitems-dark-surface: var(--gray-800);
+  --tabsitems-dark-text: var(--gray-500);
+  --tabsitems-dark-border: var(--gray-700);
+
+  --tabsitems-icon-primary: var(--gray-600);
+  --tabsitems-icon-secondary: var(--blue-600);
+  --tabsitems-icon-warning: var(--yellow-400);
+  --tabsitems-icon-destructive: var(--red-500);
+  --tabsitems-icon-success: var(--green-500);
+  --tabsitems-icon-orchid: var(--purple-700);
+
+  --tabsitems-light-text-default: var(--gray-500);
+  --tabsitems-light-text-hover: var(--gray-900);
+  --tabsitems-light-text-selected: var(--gray-500);
+  --tabsitems-light-text-focus: var(--gray-900);
+
+  --tabsitems-light-surface-default: var(--gray-0);
+  --tabsitems-light-surface-hover: var(--gray-0);
+  --tabsitems-light-surface-selected: var(--gray-100);
+  --tabsitems-light-surface-focus: var(--gray-100);
+
+  --tabsitems-light-border-default: var(--gray-0);
+  --tabsitems-light-border-hover: var(--gray-0);
+  --tabsitems-light-border-selected: var(--gray-500);
+  --tabsitems-light-border-focus: var(--blue-600);
+
+  --tabsitems-dark-text-default: var(--gray-300);
+  --tabsitems-dark-text-hover: var(--gray-100);
+  --tabsitems-dark-text-selected: var(--gray-0);
+  --tabsitems-dark-text-focus: var(--gray-100);
+
+  --tabsitems-dark-surface-default: var(--gray-900);
+  --tabsitems-dark-surface-hover: var(--gray-900);
+  --tabsitems-dark-surface-selected: var(--gray-900);
+  --tabsitems-dark-surface-focus: var(--gray-900);
+
+  --tabsitems-dark-border-default: var(--gray-900);
+  --tabsitems-dark-border-hover: var(--gray-900);
+  --tabsitems-dark-border-selected: var(--gray-600);
+  --tabsitems-dark-border-focus: var(--blue-600);
+
 }
