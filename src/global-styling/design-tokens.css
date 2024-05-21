@@ -136,10 +136,13 @@
   --color-destructive-press: var(--red-800);
   --color-destructive-disabled: var(--red-900);
 
-  --color-gray-hover: var(--gray-600);
-  --color-gray-focus: var(--gray-700);
-  --color-gray-press: var(--gray-800);
-  --color-gray-disabled: var(--gray-900);
+  --color-gray-default: var(--gray-50);
+  --color-gray-hover: var(--gray-150);
+  --color-gray-focus: var(--gray-100);
+  --color-gray-filled: var(--gray-50);
+  --color-gray-disabled: var(--gray-100);
+  --color-gray-error: var(--gray-100);
+  --color-gray-disabled: var(--gray-50);
 
   /* Specific tokens*/
 
@@ -344,7 +347,6 @@
   --tabs-dark-border-selected: var(--gray-600);
   --tabs-dark-border-focus: var(--blue-600);
 
-
   /* ---------------------------GroupTabs------------------------------- */
   --grouptabs-radius-default: var(--radius-md);
 
@@ -438,24 +440,187 @@
   --tabsitems-dark-border-selected: var(--gray-600);
   --tabsitems-dark-border-focus: var(--blue-600);
 
-    /* Tooltip */
---tooltip-light-main-text: var(--gray-600);
---tooltip-light-main-border: var(--gray-100);
---tooltip-light-main-surface: var(--gray-0);
---tooltip-light-keystroke-text: var(--gray-800);
---tooltip-light-keystroke-border: var(--gray-200);
---tooltip-light-keystroke-surface: var(--gray-0);
+  /* Tooltip */
+  --tooltip-light-main-text: var(--gray-600);
+  --tooltip-light-main-border: var(--gray-100);
+  --tooltip-light-main-surface: var(--gray-0);
+  --tooltip-light-keystroke-text: var(--gray-800);
+  --tooltip-light-keystroke-border: var(--gray-200);
+  --tooltip-light-keystroke-surface: var(--gray-0);
 
---tooltip-dark-main-text: var(--gray-300);
---tooltip-dark-main-border: var(--gray-500);
---tooltip-dark-main-surface: var(--gray-800);
---tooltip-dark-keystroke-text: var(--gray-300);
---tooltip-dark-keystroke-border:var(--gray-700);
---tooltip-dark-keystroke-surface: var(--gray-900);
+  --tooltip-dark-main-text: var(--gray-300);
+  --tooltip-dark-main-border: var(--gray-500);
+  --tooltip-dark-main-surface: var(--gray-800);
+  --tooltip-dark-keystroke-text: var(--gray-300);
+  --tooltip-dark-keystroke-border: var(--gray-700);
+  --tooltip-dark-keystroke-surface: var(--gray-900);
 
---tooltip-main-text-size: var(--size-5);
---tooltip-main-px: var(--size-3);
---tooltip-main-py: var(--size-2);
---tooltip-keystroke-px: var(--size-2);
---tooltip-keystroke-py: var(--size-0);
+  --tooltip-main-text-size: var(--size-5);
+  --tooltip-main-px: var(--size-3);
+  --tooltip-main-py: var(--size-2);
+  --tooltip-keystroke-px: var(--size-2);
+  --tooltip-keystroke-py: var(--size-0);
+
+  /* --------------------Text Field------------------- */
+
+  --txtfield-light-surface-default: var(--gray-50);
+  --txtfield-light-surface-hover: var(--gray-150);
+  --txtfield-light-surface-focus: var(--gray-100);
+  --txtfield-light-surface-filled: var(--red-50);
+  --txtfield-light-surface-disabled: var(--gray-150);
+  --txtfield-light-surface-error: var(--gray-50);
+
+  --txtfield-light-border-default: var(--gray-400);
+  --txtfield-light-border-hover: var(--gray-400);
+  --txtfield-light-border-focus: var(--blue-300);
+  --txtfield-light-border-filled: var(--gray-400);
+  --txtfield-light-border-disabled: var(--gray-400);
+  --txtfield-light-border-error: var(--red-400);
+
+  --txtfield-light-default-text: var(--gray-500);
+  --txtfield-light-hover-text: var(--gray-500);
+  --txtfield-light-focus-text: var(--gray-500);
+  --txtfield-light-filled-text: var(--gray-500);
+  --txtfield-light-disabled-text: var(--gray-500);
+  --txtfield-light-error-text: var(--gray-500);
+
+  --txtfiled-size-small: var(--size-7);
+  --txtfiled-size-base: var(--size-8);
+
+  --txtfield-px: var(--size-2);
+  --txtfield-py-small: var(--size-1);
+  --txtfield-py-base: 6px;
+
+  --txtfield-border-radius: var(--radius-md);
+
+  --txtfield-dark-surface-default: var(--gray-900);
+  --txtfield-dark-surface-hover: var(--gray-900);
+  --txtfield-dark-surface-focus: var(--gray-900);
+  --txtfield-dark-surface-filled: var(--gray-900);
+  --txtfield-dark-surface-disabled: var(--gray-900);
+  --txtfield-dark-surface-error: var(--gray-900);
+
+  --txtfield-dark-border-default: var(--gray-600);
+  --txtfield-dark-border-hover: var(--gray-500);
+  --txtfield-dark-border-focus: var(--blue-500);
+  --txtfield-dark-border-filled: var(--gray-600);
+  --txtfield-dark-border-disabled: var(--gray-700);
+  --txtfield-dark-border-error: var(--red-500);
+
+  --txtfield-dark-default-text: var(--white);
+  --txtfield-dark-hover-text: var(--white);
+  --txtfield-dark-focus-text: var(--white);
+  --txtfield-dark-filled-text: var(--white);
+  --txtfield-dark-disabled-text: var(--white);
+  --txtfield-dark-error-text: var(--white);
+
+  /* --------------------Text Area------------------- */
+
+  --txtarea-light-surface-default: var(--gray-50);
+  --txtarea-light-surface-hover: var(--gray-150);
+  --txtarea-light-surface-focus: var(--gray-100);
+  --txtarea-light-surface-filled: var(--red-50);
+  --txtarea-light-surface-disabled: var(--gray-150);
+  --txtarea-light-surface-error: var(--gray-50);
+
+  --txtarea-light-border-default: var(--gray-400);
+  --txtarea-light-border-hover: var(--gray-400);
+  --txtarea-light-border-focus: var(--blue-300);
+  --txtarea-light-border-filled: var(--gray-400);
+  --txtarea-light-border-disabled: var(--gray-400);
+  --txtarea-light-border-error: var(--red-400);
+
+  --txtarea-light-default-text: var(--gray-500);
+  --txtarea-light-hover-text: var(--gray-500);
+  --txtarea-light-focus-text: var(--gray-500);
+  --txtarea-light-filled-text: var(--gray-500);
+  --txtarea-light-disabled-text: var(--gray-500);
+  --txtarea-light-error-text: var(--gray-500);
+
+  --txtarea-px: var(--size-2);
+  --txtarea-py-small: var(--size-1);
+  --txtarea-py-base: 6px;
+
+  --txtarea-border-radius: var(--radius-md);
+
+  --txtarea-dark-surface-default: var(--gray-900);
+  --txtarea-dark-surface-hover: var(--gray-900);
+  --txtarea-dark-surface-focus: var(--gray-900);
+  --txtarea-dark-surface-filled: var(--gray-900);
+  --txtarea-dark-surface-disabled: var(--gray-900);
+  --txtarea-dark-surface-error: var(--gray-900);
+
+  --txtarea-dark-border-default: var(--gray-600);
+  --txtarea-dark-border-hover: var(--gray-500);
+  --txtarea-dark-border-focus: var(--blue-500);
+  --txtarea-dark-border-filled: var(--gray-600);
+  --txtarea-dark-border-disabled: var(--gray-700);
+  --txtarea-dark-border-error: var(--red-500);
+
+  --txtarea-dark-default-text: var(--white);
+  --txtarea-dark-hover-text: var(--white);
+  --txtarea-dark-focus-text: var(--white);
+  --txtarea-dark-filled-text: var(--white);
+  --txtarea-dark-disabled-text: var(--white);
+  --txtarea-dark-error-text: var(--white);
+
+  /* --------------------Checkbox------------------- */
+
+  --checkbox-light-surface-default: var(--gray-50);
+  --checkbox-light-border-default: var(--gray-400);
+  --checkbox-dark-surface-default: var(--gray-900);
+  --checkbox-dark-border-default: var(--gray-600);
+  --checkbox-light-default-text: var(--gray-500);
+  --checkbox-dark-default-text: var(--white);
+
+  --checkbox-light-surface-hover: var(--gray-150);
+  --checkbox-light-border-hover: var(--gray-400);
+  --checkbox-dark-surface-hover: var(--gray-900);
+  --checkbox-dark-border-hover: var(--gray-500);
+  --checkbox-light-hover-text: var(--gray-500);
+  --checkbox-dark-hover-text: var(--white);
+
+  --checkbox-light-surface-focus: var(--gray-100);
+  --checkbox-light-border-focus: var(--blue-300);
+  --checkbox-dark-surface-focus: var(--gray-900);
+  --checkbox-dark-border-focus: var(--blue-500);
+  --checkbox-light-focus-text: var(--gray-500);
+  --checkbox-dark-focus-text: var(--white);
+
+  --checkbox-light-surface-disabled: var(--gray-150);
+  --checkbox-light-border-disabled: var(--gray-400);
+  --checkbox-dark-surface-disabled: var(--gray-900);
+  --checkbox-dark-border-disabled: var(--gray-700);
+  --checkbox-light-disabled-text: var(--gray-500);
+  --checkbox-dark-disabled-text: var(--white);
+
+  /* --------------------Radio button------------------- */
+
+  --radio-light-surface-default: var(--gray-50);
+  --radio-light-border-default: var(--gray-400);
+  --radio-dark-surface-default: var(--gray-900);
+  --radio-dark-border-default: var(--gray-600);
+  --radio-light-default-text: var(--gray-500);
+  --radio-dark-default-text: var(--white);
+
+  --radio-light-surface-hover: var(--gray-150);
+  --radio-light-border-hover: var(--gray-400);
+  --radio-dark-surface-hover: var(--gray-900);
+  --radio-dark-border-hover: var(--gray-500);
+  --radio-light-hover-text: var(--gray-500);
+  --radio-dark-hover-text: var(--white);
+
+  --radio-light-surface-focus: var(--gray-100);
+  --radio-light-border-focus: var(--blue-300);
+  --radio-dark-surface-focus: var(--gray-900);
+  --radio-dark-border-focus: var(--blue-500);
+  --radio-light-focus-text: var(--gray-500);
+  --radio-dark-focus-text: var(--white);
+
+  --radio-light-surface-disabled: var(--gray-150);
+  --radio-light-border-disabled: var(--gray-400);
+  --radio-dark-surface-disabled: var(--gray-900);
+  --radio-dark-border-disabled: var(--gray-700);
+  --radio-light-disabled-text: var(--gray-500);
+  --radio-dark-disabled-text: var(--white);
 }
