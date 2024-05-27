@@ -1,0 +1,78 @@
+/* Switch.module.css */
+
+@import "../../../src/global-styling/design-tokens.css";
+
+.switch {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switchInput {
+  margin-right: var(--spacing-xs);
+  position: relative;
+  width: 40px;
+  height: 20px;
+  -webkit-appearance: none;
+  background: var(--switch-light-surface-default);
+  outline: none;
+  border-radius: 20px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.switchInput:checked::before {
+  transform: translateX(20px);
+}
+
+.switchInput::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+  background: var(--switch-light-default-text);
+}
+
+.switchBase {
+  font-size: var(--fontsize-lg);
+}
+
+.switchSmall {
+  font-size: var(--fontsize-md);
+}
+
+/* Light Mode */
+.switch-light {
+  color: var(--switch-light-default-text);
+  background-color: var(--switch-light-surface-default);
+}
+
+.switch-light.error {
+  color: var(--switch-light-error-text);
+}
+
+/* Dark Mode */
+.switch-dark {
+  color: var(--switch-dark-default-text);
+  background-color: var(--switch-dark-surface-default);
+}
+
+.switch-dark.error {
+  color: var(--switch-dark-error-text);
+}
+
+/* Media query for automatic dark mode detection */
+@media (prefers-color-scheme: dark) {
+  .switch-light {
+    color: var(--switch-dark-default-text);
+    background-color: var(--switch-dark-surface-default);
+  }
+
+  .switch-light.error {
+    color: var(--switch-dark-error-text);
+  }
+}

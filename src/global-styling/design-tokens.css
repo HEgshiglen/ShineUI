@@ -623,4 +623,34 @@
   --radio-dark-border-disabled: var(--gray-700);
   --radio-light-disabled-text: var(--gray-500);
   --radio-dark-disabled-text: var(--white);
+
+  /*--------------------- Switch ----------------------*/
+
+  --switch-light-surface-default: var(--gray-50);
+  --switch-light-border-default: var(--gray-400);
+  --switch-dark-surface-default: var(--gray-900);
+  --switch-dark-border-default: var(--gray-600);
+  --switch-light-default-text: var(--gray-500);
+  --switch-dark-default-text: var(--white);
+
+  --switch-light-surface-hover: var(--gray-150);
+  --switch-light-border-hover: var(--gray-400);
+  --switch-dark-surface-hover: var(--gray-900);
+  --switch-dark-border-hover: var(--gray-500);
+  --switch-light-hover-text: var(--gray-500);
+  --switch-dark-hover-text: var(--white);
+
+  --switch-light-surface-focus: var(--gray-100);
+  --switch-light-border-focus: var(--blue-300);
+  --switch-dark-surface-focus: var(--gray-900);
+  --switch-dark-border-focus: var(--blue-500);
+  --switch-light-focus-text: var(--gray-500);
+  --switch-dark-focus-text: var(--white);
+
+  --switch-light-surface-disabled: var(--gray-150);
+  --switch-light-border-disabled: var(--gray-400);
+  --switch-dark-surface-disabled: var(--gray-900);
+  --switch-dark-border-disabled: var(--gray-700);
+  --switch-light-disabled-text: var(--gray-500);
+  --switch-dark-disabled-text: var(--white);
 }
