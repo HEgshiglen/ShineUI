@@ -3,7 +3,7 @@ import { StoryFn, Meta } from "@storybook/react";
 import GroupTabs, { TabsProps } from './GroupTabs';
 
 export default {
-    title: "ReactComponentLibrary/GroupTabs",
+    title: "Components/GroupTabs",
     component: GroupTabs,
 } as Meta<typeof GroupTabs>;
 

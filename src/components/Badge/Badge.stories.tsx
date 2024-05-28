@@ -3,7 +3,7 @@ import {StoryFn, Meta} from "@storybook/react";
 import Badge from './Badge';
 
 export default {
-    title: "ReactComponentLibrary/Badge",
+    title: "Components/Badge",
     component: Badge,
 } as Meta<typeof Badge>;
 

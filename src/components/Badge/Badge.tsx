@@ -20,7 +20,8 @@ const Badge = (props: BadgeProps) => {
 
   return (
     <div
-      className={`${styles["badge-" + constrast + "-" + color]} ${styles["badge-" + size]} ${styles["badge-" + radius]}`}
+      className={`${styles["badge-" + constrast + "-" + color]} 
+      ${styles["badge-" + size]} ${styles["badge-" + radius]}`}
     >
       {label}
     </div>

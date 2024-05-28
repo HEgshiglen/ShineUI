@@ -3,7 +3,7 @@ import { StoryFn, Meta } from "@storybook/react";
 import TabsItems, { TabsProps } from './TabsItems';
 
 export default {
-    title: "ReactComponentLibrary/TabsItems",
+    title: "Components/TabsItems",
     component: TabsItems,
 } as Meta<typeof TabsItems>;
 
