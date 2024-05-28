@@ -12,5 +12,5 @@ const Template: StoryFn<typeof Switch> = (args) => <Switch {...args} />;
 export const SwitchExample = Template.bind({});
 SwitchExample.args = {
   contrast: "light",
-  label: "Option 1",
+  label: "",
 };

@@ -484,8 +484,8 @@
   --txtfield-light-disabled-text: var(--gray-500);
   --txtfield-light-error-text: var(--gray-500);
 
-  --txtfiled-size-small: var(--size-7);
-  --txtfiled-size-base: var(--size-8);
+  --txtfield-size-small: var(--size-7);
+  --txtfield-size-base: var(--size-8);
 
   --txtfield-px: var(--size-2);
   --txtfield-py-small: var(--size-1);
@@ -627,30 +627,39 @@
   /*--------------------- Switch ----------------------*/
 
   --switch-light-surface-default: var(--gray-50);
-  --switch-light-border-default: var(--gray-400);
+  --switch-light-border-default: var(--gray-900);
   --switch-dark-surface-default: var(--gray-900);
   --switch-dark-border-default: var(--gray-600);
-  --switch-light-default-text: var(--gray-500);
-  --switch-dark-default-text: var(--white);
+  --switch-light-default-text: var(--blue-500);
+  --switch-dark-default-text: var(--blue-400);
 
   --switch-light-surface-hover: var(--gray-150);
-  --switch-light-border-hover: var(--gray-400);
+  --switch-light-border-hover: var(--gray-900);
   --switch-dark-surface-hover: var(--gray-900);
   --switch-dark-border-hover: var(--gray-500);
-  --switch-light-hover-text: var(--gray-500);
-  --switch-dark-hover-text: var(--white);
+  --switch-light-hover-text: var(--blue-500);
+  --switch-dark-hover-text: var(--blue-400);
 
   --switch-light-surface-focus: var(--gray-100);
-  --switch-light-border-focus: var(--blue-300);
+  --switch-light-border-focus: var(--blue-900);
   --switch-dark-surface-focus: var(--gray-900);
-  --switch-dark-border-focus: var(--blue-500);
-  --switch-light-focus-text: var(--gray-500);
-  --switch-dark-focus-text: var(--white);
+  --switch-dark-border-focus: var(--blue-900);
+  --switch-light-focus-text: var(--blue-900);
+  --switch-dark-focus-text: var(--blue-400);
 
   --switch-light-surface-disabled: var(--gray-150);
-  --switch-light-border-disabled: var(--gray-400);
+  --switch-light-border-disabled: var(--gray-900);
   --switch-dark-surface-disabled: var(--gray-900);
   --switch-dark-border-disabled: var(--gray-700);
-  --switch-light-disabled-text: var(--gray-500);
-  --switch-dark-disabled-text: var(--white);
+  --switch-light-disabled-text: var(--blue-500);
+  --switch-dark-disabled-text: var(--blue-400);
+
+  --switch-size-small: var(--size-7);
+  --switch-size-base: var(--size-8);
+
+  --switch-px: var(--size-2);
+  --switch-py-small: var(--size-1);
+  --switch-py-base: 6px;
+
+  --switch-border-radius: var(--radius-md);
 }

@@ -1,5 +1,3 @@
-/* Switch.module.css */
-
 @import "../../../src/global-styling/design-tokens.css";
 
 .switch {
@@ -14,11 +12,11 @@
   width: 40px;
   height: 20px;
   -webkit-appearance: none;
-  background: var(--switch-light-surface-default);
-  outline: none;
+  background: var(--switch-light-blue-default);
+  outline: darkblue;
   border-radius: 20px;
   transition: background 0.3s;
-  cursor: pointer;
+  border: 1px solid var(--switch-dark-border-default); /* Add border for light mode */
 }
 
 .switchInput:checked::before {
@@ -29,14 +27,14 @@
   content: "";
   position: absolute;
   top: 2px;
-  left: 2px;
+  left: 1px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  transition: 0.3s;
   background: var(--switch-light-default-text);
 }
 
+/* Small and Base Sizes */
 .switchBase {
   font-size: var(--fontsize-lg);
 }
@@ -51,6 +49,10 @@
   background-color: var(--switch-light-surface-default);
 }
 
+.switch-light .switchInput {
+  border-color: var(--switch-border-light);
+}
+
 .switch-light.error {
   color: var(--switch-light-error-text);
 }
@@ -59,6 +61,10 @@
 .switch-dark {
   color: var(--switch-dark-default-text);
   background-color: var(--switch-dark-surface-default);
+}
+
+.switch-dark .switchInput {
+  border-color: var(--switch-dark-border-default);
 }
 
 .switch-dark.error {
@@ -70,6 +76,10 @@
   .switch-light {
     color: var(--switch-dark-default-text);
     background-color: var(--switch-dark-surface-default);
+  }
+
+  .switch-light .switchInput {
+    border-color: var(--switch-border-dark);
   }
 
   .switch-light.error {

@@ -4,6 +4,7 @@ import styles from "./Switch.module.css";
 export interface SwitchProps {
   label: string;
   contrast: "light" | "dark";
+  size?: "base" | "small";
   initialChecked?: boolean;
   initialError?: boolean;
 }
@@ -12,6 +13,7 @@ const Switch = (props: SwitchProps) => {
   const {
     label,
     contrast,
+    size = "base",
     initialChecked = false,
     initialError = false,
   } = props;
@@ -23,19 +25,23 @@ const Switch = (props: SwitchProps) => {
   };
 
   return (
-    <label
-      className={`${styles.switch} ${styles["switch-" + contrast]} ${
-        error ? styles.error : ""
-      }`}
+    <div
+      className={`${styles["switch-" + size]} ${styles["switch-" + contrast]}`}
     >
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={handleChange}
-        className={styles.switchInput}
-      />
-      <span className={styles.label}>{label}</span>
-    </label>
+      <label
+        className={`${styles.switch} ${styles["switch-" + contrast]} ${
+          error ? styles.error : ""
+        } ${styles["switch-" + size]}`}
+      >
+        <input
+          type="checkbox"
+          checked={checked}
+          onChange={handleChange}
+          className={styles.switchInput}
+        />
+        <span className={styles.label}>{label}</span>
+      </label>
+    </div>
   );
 };
 
