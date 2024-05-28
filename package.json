@@ -10,7 +10,8 @@
     "test": "jest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "start": "vite"
+    "start": "vite",
+    "preview": "vite preview"
   },
   "author": "aminzaya",
   "license": "ISC",
